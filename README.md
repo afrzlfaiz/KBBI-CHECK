@@ -33,17 +33,9 @@ python app.py
 
 Buka browser dan akses `http://localhost:5000`
 
-## 🌐 Deploy di Render.com
+## 🌐 Demo Online
 
-1. Login ke [Render.com](https://render.com)
-2. Klik **New +** → **Web Service**
-3. Connect repository GitHub ini
-4. Konfigurasi:
-   - **Name**: `kbbi-checker` (atau sesuai keinginan)
-   - **Environment**: `Python`
-   - **Build Command**: `pip install -r requirements.txt`
-   - **Start Command**: `gunicorn app:app`
-5. Klik **Create Web Service**
+Coba langsung: **[https://kbbi-check.onrender.com/](https://kbbi-check.onrender.com/)**
 
 ## 📁 Struktur Project
 
